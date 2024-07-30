@@ -1,6 +1,11 @@
 ABOUT ME
 
-Data Science graduate student with 7+ years of experience in macroeconomic research for the government agencies, academia, and industry with a strong interest in applying data analysis to solve real-world problems. 
+My name is Anastasia Iskaliyeva. I am a Data Science graduate student with 7+ years of experience in macroeconomic research for the government agencies, academia, and industry with a strong interest in applying data analysis to solve real-world problems.
+
+I have an academic background in economics and professional experience in economic research and statistical analysis for the Ministry of National Economy and National Analytical Center of Kazakhstan, where I have worked on projects in collaboration with experts from Duke University, Centennial Group, and the World Bank on the topics of global value chains and oil wealth management.
+
+Today, I am particularly excited about new cross-disciplinary fields that have emerged with the implementation of machine learning. I am looking for an opportunity to contribute to impactful projects with the adoption of machine learning techniques. To advance my skills in data analysis, I’ve completed courses on Python, SQL, and earned Tableau certification. Currently, I am a student in the Master of Data Science graduate program at UCI.
+
 
 PROJECTS
 
