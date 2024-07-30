@@ -1,5 +1,8 @@
 DATA SCIENTIST 
 
+ABOUT ME
+Data Science graduate student with 7+ years of experience in macroeconomic research for the government agencies, academia, and industry with a strong interest in applying data analysis to solve real-world problems. Seeking opportunities to leverage my academic background to contribute to impactful projects.
+
 PROJECTS
 
 Machine Learning Model for Piano Fingering Analysis and Generation (in progress)
