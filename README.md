@@ -7,6 +7,7 @@ I have an academic background in economics and professional experience in econom
 Today, I am particularly excited about new cross-disciplinary fields that have emerged with the implementation of machine learning. I am looking for an opportunity to contribute to impactful projects with the adoption of machine learning techniques. To advance my skills in data analysis, I’ve completed courses on Python, SQL, and earned Tableau certification. Currently, I am a student in the Master of Data Science graduate program at UCI.
 
 SKILLS
+
 Data analysis | Statistics | SQL | Python | Tableau
 
 
