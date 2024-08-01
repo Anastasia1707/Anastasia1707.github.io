@@ -25,6 +25,7 @@ Data analysis | Statistics | SQL | Python | Tableau
 <p>Employed Python to build an economic growth model based on IMF research, utilizing World Bank data. Conducted data analysis, curve fitting, and time series modeling (ARIMAX) to assess the relationship between debt and GDP. Discovered insights into the complex dynamics between debt and economic growth, providing valuable information for policymakers.</p>
 
 More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
+
 </details>
 <br>
 
@@ -35,6 +36,7 @@ More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
  <p>Built a logical diagram for an online store that manages its products, customer interactions, and order fulfillment process. Customers can browse, order, and review products through the company’s website, while the business handles order processing, shipping, and payment management.</p>
 
   More details in [Github repo](https://github.com/Anastasia1707/MySQL-E-commerce) 
+  
 </details>
 <br>
 
