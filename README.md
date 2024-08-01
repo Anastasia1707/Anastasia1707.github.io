@@ -49,3 +49,6 @@ The leading university-based think-tank in Kazakhstan provides research and advi
 PUBLICATIONS
 -	[The Wheat Value Chain in Kazakhstan (NAC in collaboration with the Duke University Global Value Chains Center), 2016-2017](https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf)
 -	[A practical approach to oil wealth management of Kazakhstan (NAC in collaboration with Hossein Razavi, World Bank), 2014-2015](https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan)
+
+---
+[Resume](https://github.com/Anastasia1707/Anastasia1707.github.io/blob/main/Anastasia_Iskaliyeva_Resume.pdf?format=raw)
