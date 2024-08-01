@@ -36,6 +36,7 @@ More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
 
   More details in [Github repo](https://github.com/Anastasia1707/MySQL-E-commerce) 
 </details>
+<br>
 
 ## EDUCATION
 
