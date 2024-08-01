@@ -10,15 +10,14 @@ Today, I am particularly excited about new cross-disciplinary fields that have e
 
 Data analysis | Statistics | SQL | Python | Tableau
 
-
 ## PROJECTS
 <details>
   <summary>Machine Learning Model for Piano Fingering Analysis and Generation (in progress)</summary>
 <br>
 <p>Developed a machine learning model to analyze and generate piano fingering suggestions. Utilizing XML-formatted sheet music with fingering annotations (MusicXML) as training data, the model aims to automatically suggest optimal fingerings for new pieces, enhancing the learning experience for pianists.</p>
 </details>
+<br>
 
-   
 <details>
   <summary>The Influence of External Debt of Economic Growth</summary>
 
@@ -27,6 +26,7 @@ Data analysis | Statistics | SQL | Python | Tableau
 
 More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
 </details>
+<br>
 
 <details>
   <summary>Database for an E-commerce in MySQL</summary>
@@ -38,6 +38,7 @@ More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
 </details>
 
 ## EDUCATION
+
 * **University of California, Irvine, CA,** *Graduate student, Master of Data Science*
   <br>2024-2025
 * **Lomonosov Moscow State University, Moscow, Russia**, *Master of Economics*
@@ -66,4 +67,4 @@ More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
 -	[A practical approach to oil wealth management of Kazakhstan](https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan) (NAC in collaboration with Hossein Razavi, World Bank), *2014-2015*
 
 ---
-[Resume](https://github.com/Anastasia1707/Anastasia1707.github.io/blob/main/Anastasia_Iskaliyeva_Resume.pdf?raw=true)
+[Download Resume](https://github.com/Anastasia1707/Anastasia1707.github.io/blob/main/Anastasia_Iskaliyeva_Resume.pdf?raw=true)
