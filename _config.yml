@@ -1,6 +1,12 @@
 title: Anastasia Iskaliyeva
 logo: /photo.png
-description: Data Scientist and Economic Research Analyst
+description: >
+  First description
+  <br><br>
+  Data Scientist 
+  <br><br>
+  Second description
+  Irvine, CA
 show_downloads: false
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
