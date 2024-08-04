@@ -1,5 +1,5 @@
 
-<button>## ABOUT ME</button>
+## ABOUT ME
 
 
 My name is Anastasia Iskaliyeva. I am a Data Science graduate student with 7+ years of experience in macroeconomic research for the government agencies, academia, and industry with a strong interest in applying data analysis to solve real-world problems.
