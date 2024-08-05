@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Minimal by Steve Smith</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div style="text-align: center;">
+        <h1><b>Anastasia Iskaliyeva</b></h1>
+        <h1><b>Data Scientist</b></h1>
+        <img src="photo.png" alt="photo" width="500">
+            <br><br>
+        <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Location Icon" width="20" height="20"> <b>Irvine, CA</b>
+        </p>
+        <p>
+            <a href="https://github.com/Anastasia1707" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="40" height="40">
+            </a>&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/anastasia-iskaliyeva-686a02316" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" width="40" height="40">
+            </a>&nbsp;&nbsp;
+            <a href="mailto:a.iskaliyeva@gmail.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email Icon" width="40" height="40">
+            </a>
+        </p>
+        <p>
+            <a href="Anastasia_Iskaliyeva_Resume.pdf" target="_blank"><b>MY RESUME</b></a>
+        </p>
+        </div>
+      </header>
+
+
+      <section>
+        <h1><b>ABOUT ME</b></h1>
+
+       <p>
+        My name is Anastasia. I am a Data Science graduate student with 7+ years of experience
+        in macroeconomic research for the government agencies, academia, and industry with a strong interest
+        in applying data analysis to solve real-world problems...
+        <a href="javascript:void(0);" onclick="toggleContent()" id="moreBtn">more</a>
+        </p>
+
+        <!-- Hidden content initially -->
+        <div id="moreContent" style="display: none;">
+            <p>
+                I have an academic background in economics and professional experience in economic research and statistical
+                analysis for the Ministry of National Economy and National Analytical Center of Kazakhstan, where I have
+                worked on projects in collaboration with experts from Duke University, Centennial Group, and the World Bank
+                on the topics of global value chains and oil wealth management.
+            </p>
+            <p>
+                Today, I am particularly excited about new cross-disciplinary fields that have emerged with
+                the implementation of machine learning. I am looking for an opportunity to contribute to impactful projects
+                with the adoption of machine learning techniques. To advance my skills in data analysis, I’ve completed
+                courses on Python, SQL, and earned Tableau certification. Currently, I am a student in the Master of Data Science
+                graduate program at UCI.
+            </p>
+        </div>
+        </section>
+
+    <script>
+        function toggleContent() {
+            var moreContent = document.getElementById("moreContent");
+            var moreBtn = document.getElementById("moreBtn");
+
+            if (moreContent.style.display === "none") {
+                moreContent.style.display = "block";
+                moreBtn.innerHTML = "less"; // Change text to less
+            } else {
+                moreContent.style.display = "none";
+                moreBtn.innerHTML = "more"; // Change text to more
+            }
+        }
+    </script>
+
+          <section>
+            <h1><b>SKILLS</b></h1>
+            <div style="display: inline-block; text-align: center; margin: 0 15px;">
+                <img src="python.png" alt="Python Logo" width="50" height="50">
+                <p style="margin: 0;">Python</p>
+            </div>
+
+            <div style="display: inline-block; text-align: center; margin: 0 15px;">
+                <img src="mysql.png" alt="MySQL Logo" width="50" height="50">
+                <p style="margin: 0;">MySQL</p>
+            </div>
+
+            <div style="display: inline-block; text-align: center; margin: 0 15px;">
+                <img src="tableau.png" alt="Tableau Logo" width="50" height="50">
+                <p style="margin: 0;">Tableau</p>
+            </div>
+         </section>
+
+        <section>
+        <h1><b>PROJECTS</b></h1>
+            <details>
+                <summary>Machine Learning Model for Piano Fingering Analysis and Generation (in progress)</summary>
+                <br>
+                <p>Developing a machine learning model to analyze and generate piano fingering suggestions.
+                 Utilizing XML-formatted sheet music with fingering annotations (MusicXML) as training data,
+                 the model aims to automatically suggest optimal fingerings for new pieces, enhancing the learning
+                 experience for pianists.</p>
+            </details>
+            <br>
+            <details>
+                <summary>The Influence of External Debt of Economic Growth</summary>
+                <br>
+                <p>Employed Python to build an economic growth model based on IMF research, utilizing World Bank data.
+                Conducted data analysis, curve fitting, and time series modeling (ARIMAX) to assess the relationship
+                between debt and GDP. Discovered insights into the complex dynamics between debt and economic growth,
+                providing valuable information for policymakers.</p>
+                <a href="https://github.com/Anastasia1707/debt_and_gdp" target="_blank">More details in Github repo</a>
+            </details>
+            <br>
+            <details>
+                 <summary>Database for an E-commerce in MySQL</summary>
+                 <br>
+                 <p>Exercise project. Built a logical diagram for an online store that manages its products, customer interactions,
+                 and order fulfillment process.</p>
+                 <a href="https://github.com/Anastasia1707/MySQL-E-commerce" target="_blank">More details in Github repo</a>
+            </details>
+        </section>
+
+
+        <section>
+        <h1><b>EDUCATION</b></h1>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <img src="uci.png" alt="UCI Logo" width="50" height="auto" style="margin-right: 10px;">
+                <span>University of California, Irvine, CA, incoming student, <br>Master of Data Science, 2024-2025</span>
+            </div>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <img src="msu.png" alt="MSU Logo" width="50" height="auto" style="margin-right: 10px;">
+                <span>Lomonosov Moscow State University, Moscow, Russia, <br>Master of Economics, 2009-2011</span>
+            </div>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <img src="msu.png" alt="MSU Logo" width="50" height="auto" style="margin-right: 10px;">
+                <span>Lomonosov Moscow State University, Moscow, Russia, <br> Bachelor of Economics,2004-2008</span>
+            </div>
+        </section>
+
+
+        <section>
+        <h1><b>TRAINING</b></h1>
+        <p>
+            <b>Certified Tableau Desktop Specialist</b>, <i>2024</i>
+        </p>
+        <p>
+            <b>Database Management Programming (SQL)</b>, <i>Irvine Valley College, 2023</i>
+        </p>
+        <p>
+            <b>Programming with Python</b>, <i>Irvine Valley College, 2019</i>
+        </p>
+        </section>
+
+
+
+        <section>
+        <h1><b>EXPERIENCE</b></h1>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <img src="nac.png" alt="NAC Logo" width="50" height="auto" style="margin-right: 10px;">
+                <span><b>Senior Research-Analyst at the National Analytical Center</b>, <i>2012 - 2017, Astana, Kazakhstan</i></span>
+            </div>
+            <p>
+            The leading university-based think-tank in Kazakhstan provides research and advisory support
+            to the national government, NGOs, and the business community</p>
+            <ul>
+              <li>Identified strategic development approaches for various industries within the Kazakhstani economy</li>
+              <li>Formulated recommendations for policymakers regarding the long-term socio-economic development of Kazakhstan</li>
+              <li>Utilized the global value chains framework to analyze the wheat industry in Kazakhstan, highlighting
+                  support measures for businesses</li>
+            </ul>
+        </p>
+
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <img src="eri.png" alt="ERI Logo" width="50" height="auto" style="margin-right: 10px;">
+                <span><b>Research-Analyst at the Ministry of National Economy, Economic Research Institute</b>,<i>2010 - 2012, Astana, Kazakhstan</i></span>
+            </div>
+           <p>
+            <ul>
+                <li>Conducted macroeconomic research, employing regression analysis, panel data analysis, and statistical analysis</li>
+            </ul>
+        </p>
+        </section>
+
+
+
+        <section>
+        <h1><b>PUBLICATIONS</b></h1>
+        <p>
+            <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf  " target="_blank">
+                The Wheat Value Chain in Kazakhstan, CAMPUS CGGC, Oct 12, 2017</a>
+            <br>
+            This research is prepared on behalf of the partnership between the National Analytical Center (NAC)
+            at Nazarbayev University in Astana, Kazakhstan and Duke University Global Value Chains Center (GVCC)
+            at Duke University in Durham, North Carolina, USA. The partnership aims at fostering collaboration in value chain
+            research to advance Kazakhstan’s economic performance and participation in Global Value Chains (GVCs).
+        </p>
+
+        <p>
+            <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan"
+               target="_blank">A practical approach to oil wealth management of Kazakhstan, Energy Economics, Jan 1, 2015</a>
+            <br>
+            This study presents a practical approach to oil wealth management by bringing together various dimensions
+            (oil production and sustainability of oil reserves, impact on the economy and the balance of trade, and the impact
+            on the fiscal balance, government debt, and the national oil fund) within a long-term planning framework...
+            <a href="javascript:void(0);" onclick="toggleContent('moreContent2', 'moreBtn2')" id="moreBtn2">more</a>
+        </p>
+<!-- Second MORE button and content -->
+        <div id="moreContent2" style="display: none;">
+            <p>
+                The study provides a quantitative depiction of the above dimensions to 2050 for the case of Kazakhstan where
+                the country's oil output has grown from about 0.6 million barrels/day (mb/d) in the late 1990s to 1.8 (mb/d) in 2013,
+                and it is expected to reach a peak of 3.5 mb/d by 2035. The analysis of this study indicates that within the limits of
+                proven oil reserves, Kazakhstan's oil production capacity would collapse to negligible amounts after the peak period of 2035.
+                This envisaged scenario will have undesirable impacts on the economy, balance of trade and fiscal balance both prior and after 2035.
+                To avoid these erratic impacts, the study examines an alternative “conservative” production scenario that would enable
+                the country to maintain its level of oil production until 2050, and to manage better the transition to a non-oil economy.
+            </p>
+        </div>
+
+         <script>
+            function toggleContent(contentId, btnId) {
+                var moreContent = document.getElementById(contentId);
+                var moreBtn = document.getElementById(btnId);
+
+                if (moreContent.style.display === "none") {
+                    moreContent.style.display = "block";
+                    moreBtn.innerHTML = "less"; // Change text to LESS
+                } else {
+                    moreContent.style.display = "none";
+                    moreBtn.innerHTML = "more"; // Change text back to MORE
+                }
+            }
+        </script>
+
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
