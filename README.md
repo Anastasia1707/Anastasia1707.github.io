@@ -17,6 +17,10 @@ Data analysis | Statistics | Python | SQL | Tableau
   <summary>Machine Learning Model for Piano Fingering Analysis and Generation (in progress)</summary>
 <br>
 <p>Developing a machine learning model to analyze and generate piano fingering suggestions. Utilizing XML-formatted sheet music with fingering annotations (MusicXML) as training data, the model aims to automatically suggest optimal fingerings for new pieces, enhancing the learning experience for pianists.</p>
+
+  
+  More details in [Github repo](https://github.com/Anastasia1707/piano-fingering)
+  
 </details>
 <br>
 
