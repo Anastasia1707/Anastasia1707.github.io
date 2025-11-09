@@ -2,15 +2,46 @@
 ## ABOUT ME |
 
 
-My name is Anastasia Iskaliyeva. I am a Data Science graduate student with 7+ years of experience in macroeconomic research for the government agencies, academia, and industry with a strong interest in applying data analysis to solve real-world problems.
+My name is Anastasia. I am a Data Scientist and an Economist with experience in predictive analytics, machine learning, and macroeconomic research across industry, government, and academia. I am passionate about working with data – discovering patterns and anomalies, extracting meaningful insights, and applying machine learning and advanced statistics to solve real-world problems.
 
-I have an academic background in economics and professional experience in economic research and statistical analysis for the Ministry of National Economy and National Analytical Center of Kazakhstan, where I have worked on projects in collaboration with experts from Duke University, Centennial Group, and the World Bank on the topics of global value chains and oil wealth management.
+My background bridges data science and economics, combining technical expertise with an understanding of large-scale systems and decision-making. Professionally, I have worked in applied R&D predictive analytics and machine learning for medical technology manufacturing, as well as in macroeconomic research and policy analysis for the Department of Economy and the National Analytical Center of Kazakhstan. My research collaborations include projects with experts from Duke University, the Centennial Group, and the World Bank on topics of global value chains and oil wealth management.
 
-Today, I am particularly excited about new cross-disciplinary fields that have emerged with the implementation of machine learning. I am looking for an opportunity to contribute to impactful projects with the adoption of machine learning techniques. To advance my skills in data analysis, I’ve completed courses on Python, SQL, and earned Tableau certification. Currently, I am a student in the Master of Data Science graduate program at UCI.
+Today, I’m particularly excited about cross-disciplinary applications of machine learning that connect data science with knowlwdge domains in healthcare, economics, and manufacturing. I continuously expand my skills in Python, big data, probabilistic modeling, and data visualization (Tableau certified), and I’m eager to contribute to impactful, data-driven projects that translate analysis into meaningful outcomes.
+
+Beyond data, I’m also passionate about music and creativity. In my spare time, I play the piano and am developing a machine learning tool to predict piano fingerings for sheet music, contributing to the open-source music data community.
+
+
 
 ## SKILLS |
 
-Data analysis | Statistics | Python | SQL | Tableau
+Data analysis | Statistics | Python | SQL | Tableau | R
+
+## EDUCATION
+
+* **University of California, Irvine, CA,** *Master of Data Science*
+  <br>2024-2025
+* **Lomonosov Moscow State University, Moscow, Russia**, *Master of Economics*
+  <br>2009-2011
+* **Lomonosov Moscow State University, Moscow, Russia,** *Bachelor of Economics*
+  <br>2004-2008
+
+
+## EXPERIENCE
+
+**R&D Data Science Intern at Ormco,** *2025 - present, Brea CA*
+<br>Medical technology manufacturer
+  * Build predictive machine learning model to forecast refinements, supporting data-driven planning across R&D and Manufacturing
+  * Prepare and optimize large datasets in Amazon Redshift using SQL/Postgres, integrating data from multiple sources for executive reporting and machine learning model development
+    
+**Senior Research-Analyst at the National Analytical Center,** *2015 - 2020, Astana, Kazakhstan*
+<br>The leading university-based think-tank in Kazakhstan provides research and advisory support to the national government, NGOs, and the business community
+  * Identified strategic development approaches for various industries within the Kazakhstani economy
+  * Formulated recommendations for policymakers regarding the long-term socio-economic development of Kazakhstan
+  * Utilized the global value chains framework to analyze the wheat industry in Kazakhstan, highlighting support measures for businesses
+
+**Research-Analyst at the Ministry of National Economy, Economic Research Institute,** *2010 - 2012, Astana, Kazakhstan*
+<br>Conducted macroeconomic research, employing regression analysis, panel data analysis, and statistical analysis
+
 
 ## PROJECTS
 <details>
@@ -46,14 +77,7 @@ More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
 </details>
 <br>
 
-## EDUCATION
 
-* **University of California, Irvine, CA,** *Graduate student, Master of Data Science*
-  <br>2024-2025
-* **Lomonosov Moscow State University, Moscow, Russia**, *Master of Economics*
-  <br>2009-2011
-* **Lomonosov Moscow State University, Moscow, Russia,** *Bachelor of Economics*
-  <br>2004-2008
 
 ## TRAINING
 * Certified Tableau Desktop Specialist, *2024*
@@ -61,15 +85,7 @@ More details in [Github repo](https://github.com/Anastasia1707/debt_and_gdp)
 *	Programming with Python, *Irvine Valley College, 2019*
 *	IBM SPSS Statistics, *Bauman MSTU, Moscow, 2015*
 
-## EXPERIENCE
-**Senior Research-Analyst at the National Analytical Center,** *2012 - 2017, Astana, Kazakhstan*
-<br>The leading university-based think-tank in Kazakhstan provides research and advisory support to the national government, NGOs, and the business community
-  * Identified strategic development approaches for various industries within the Kazakhstani economy
-  * Formulated recommendations for policymakers regarding the long-term socio-economic development of Kazakhstan
-  * Utilized the global value chains framework to analyze the wheat industry in Kazakhstan, highlighting support measures for businesses
 
-**Research-Analyst at the Ministry of National Economy, Economic Research Institute,** *2010 - 2012, Astana, Kazakhstan*
-<br>Conducted macroeconomic research, employing regression analysis, panel data analysis, and statistical analysis
 
 ## PUBLICATIONS
 -	[The Wheat Value Chain in Kazakhstan](https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf) (NAC in collaboration with the Duke University Global Value Chains Center), *2016-2017*
