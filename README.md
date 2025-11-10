@@ -1,7 +1,6 @@
 
 ## ABOUT ME |
 
-
 My name is Anastasia. I am a Data Scientist and an Economist with experience in predictive analytics, machine learning, and macroeconomic research across industry, government, and academia. I am passionate about working with data – discovering patterns and anomalies, extracting meaningful insights, and applying machine learning and advanced statistics to solve real-world problems.
 
 My background bridges data science and economics, combining technical expertise with an understanding of large-scale systems and decision-making. Professionally, I have worked in applied R&D predictive analytics and machine learning for medical technology manufacturing, as well as in macroeconomic research and policy analysis for the Department of Economy and the National Analytical Center of Kazakhstan. My research collaborations include projects with experts from Duke University, the Centennial Group, and the World Bank on topics of global value chains and oil wealth management.
