@@ -7,11 +7,8 @@
 
   <title>Anastasia Iskaliyeva | Portfolio</title>
 
-  <!-- Keep your existing CSS if you want, but this file is a clean override -->
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-
-  <!-- Add this new stylesheet -->
   <link rel="stylesheet" href="stylesheets/portfolio.css">
 </head>
 
@@ -20,50 +17,47 @@
 
     <!-- HERO -->
     <header class="hero" id="top">
-      <div class="hero-grid">
-        <div class="hero-left">
-          <h1 class="name">Anastasia Iskaliyeva</h1>
-          <p class="tagline">Data Science • Economics • Reporting & Analytics</p>
+      <div>
+        <h1 class="name">Anastasia Iskaliyeva</h1>
+        <p class="tagline">Data Science • Economics • Reporting &amp; Analytics</p>
 
-          <div class="meta">
-            <span class="meta-item">
-              <img class="icon" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="" />
-              Irvine, CA
-            </span>
-          </div>
+        <p class="muted" style="margin-bottom: 10px;">
+          <img class="icon" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Location" />
+          Irvine, CA
+        </p>
 
-          <div class="links">
-            <a class="icon-link" href="https://github.com/Anastasia1707" target="_blank" rel="noreferrer">
-              <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
-            </a>
-            <a class="icon-link" href="https://www.linkedin.com/in/anastasia-iskaliyeva-686a02316" target="_blank" rel="noreferrer">
-              <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
-            </a>
-            <a class="icon-link" href="mailto:a.iskaliyeva@gmail.com">
-              <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" />
-            </a>
-          </div>
-
-          <div class="cta-row">
-            <a class="btn primary" href="Anastasia Iskaliyeva_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
-            <a class="btn" href="#projects">View Projects</a>
-          </div>
+        <div class="links">
+          <a class="icon-link" href="https://github.com/Anastasia1707" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+          </a>
+          <a class="icon-link" href="https://www.linkedin.com/in/anastasia-iskaliyeva-686a02316" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+          </a>
+          <a class="icon-link" href="mailto:a.iskaliyeva@gmail.com" aria-label="Email">
+            <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" />
+          </a>
         </div>
 
-        <div class="hero-right">
-          <img class="portrait" src="photo.png" alt="Anastasia photo" />
+        <div class="btn-row">
+          <a class="btn primary" href="Anastasia%20Iskaliyeva_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn" href="mailto:a.iskaliyeva@gmail.com">Email Me</a>
         </div>
+
+        <!-- NAV -->
+        <nav class="nav" aria-label="Page sections">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#tech">Technologies</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#training">Training</a>
+        </nav>
       </div>
 
-      <!-- NAV -->
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#tech">Technologies</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#training">Training</a>
-      </nav>
+      <div>
+        <img class="portrait" src="photo.png" alt="Anastasia photo" />
+      </div>
     </header>
 
 
@@ -89,52 +83,50 @@
 
         <article class="card">
           <div class="card-top">
-            <h3>Piano Fingering Prediction</h3>
-            <span class="pill">ML • MusicXML</span>
+            <h3>Piano Fingering Prediction <span class="pill">ML • MusicXML</span></h3>
           </div>
           <p>
             Built machine-learning models using MusicXML data to predict and evaluate optimal piano fingering,
             saving pianists hours of manual music-sheet annotation.
           </p>
           <div class="card-links">
-            <a href="Predicting Piano Fingering.pdf" target="_blank" rel="noreferrer">Random Forest & Neural Nets</a>
-            <a href="Probabilistic Piano Fingering .pdf" target="_blank" rel="noreferrer">Hidden Markov Models</a>
-            <a href="https://github.com/Anastasia1707/piano-fingering" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="Predicting%20Piano%20Fingering.pdf" target="_blank" rel="noopener noreferrer">Random Forest &amp; Neural Nets</a>
+            <a href="Probabilistic%20Piano%20Fingering.pdf" target="_blank" rel="noopener noreferrer">Hidden Markov Models</a>
+            <a href="https://github.com/Anastasia1707/piano-fingering" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3>Agentic AI Integration</h3>
-            <span class="pill">RAG • Validation</span>
+            <h3>Agentic AI Integration <span class="pill">RAG • Validation</span></h3>
           </div>
           <p>
             Developed a RAG agent for biotech knowledge access, creating a proof of concept that reduced customer support workload.
             Built validation framework and tuned prompts/hyperparameters to mitigate hallucinations.
           </p>
           <div class="card-links">
-            <a href="AgenticAI_Project_Report.pdf" target="_blank" rel="noreferrer">Project Report</a>
+            <a href="AgenticAI_Project_Report.pdf" target="_blank" rel="noopener noreferrer">Project Report</a>
+            <!-- Optional: add repo link when ready -->
+            <!-- <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">GitHub Repo</a> -->
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3>External Debt & Economic Growth (ARIMAX)</h3>
-            <span class="pill">Time Series • Economics</span>
+            <h3>External Debt &amp; Economic Growth (ARIMAX) <span class="pill">Time Series • Economics</span></h3>
           </div>
           <p>
             Built an economic growth model based on IMF research using World Bank data. Conducted curve fitting and ARIMAX modeling
             to assess debt–GDP dynamics and identify threshold effects.
           </p>
           <div class="card-links">
-            <a href="https://github.com/Anastasia1707/debt_and_gdp" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="https://github.com/Anastasia1707/debt_and_gdp" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3>A/B Testing & Experiment Design (BigQuery)</h3>
-            <span class="pill">Experimentation • SQL</span>
+            <h3>A/B Testing &amp; Experiment Design (BigQuery) <span class="pill">Experimentation • SQL</span></h3>
           </div>
 
           <ul class="bullets">
@@ -146,7 +138,9 @@
           </ul>
 
           <div class="card-links">
-            <a href="#" target="_blank" rel="noreferrer">GitHub Repo (updating)</a>
+            <!-- Replace this with your real repo link when ready -->
+            <span class="muted">GitHub repo: updating</span>
+            <!-- <a href="https://github.com/Anastasia1707/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a> -->
           </div>
         </article>
 
@@ -173,12 +167,12 @@
         </div>
 
         <div class="tech-card">
-          <h3>Cloud & Data</h3>
+          <h3>Cloud &amp; Data</h3>
           <ul class="tags"><li>AWS</li><li>Spark</li></ul>
         </div>
 
         <div class="tech-card">
-          <h3>BI & Reporting</h3>
+          <h3>BI &amp; Reporting</h3>
           <ul class="tags"><li>Tableau</li><li>QuickSight</li><li>Power BI</li></ul>
         </div>
 
@@ -200,7 +194,7 @@
           <div class="role-head">
             <img src="ormco.png" alt="Ormco logo" class="logo">
             <div>
-              <h3>R&D Data Scientist — Ormco</h3>
+              <h3>R&amp;D Data Scientist — Ormco</h3>
               <p class="muted">2025–Current • Brea, CA • Medical equipment manufacturing</p>
             </div>
           </div>
@@ -225,8 +219,8 @@
             <li>Applied global value chains framework to analyze the wheat industry and propose business support measures.</li>
           </ul>
           <div class="inline-links">
-            <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf" target="_blank" rel="noreferrer">Publication 1</a>
-            <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan" target="_blank" rel="noreferrer">Publication 2</a>
+            <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf" target="_blank" rel="noopener noreferrer">Publication 1</a>
+            <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan" target="_blank" rel="noopener noreferrer">Publication 2</a>
           </div>
         </div>
 
