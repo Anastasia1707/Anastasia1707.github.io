@@ -50,8 +50,6 @@
        <p>
         Data Scientist with a background in economics and over 7 years of experience applying statistical, 
         machine-learning, macroeconomic research  and econometric models to forecasting and decision-making across research and industry settings.  
-
-        <a href="javascript:void(0);" onclick="toggleContent('moreContent', 'moreBtn')" id="moreBtn">more</a>
       </p>
 
  </section>
@@ -63,7 +61,9 @@
     <h2>Piano Fingering Prediction </h2>
     <p>Built machine-learning models using MusicXML data to predict and evaluate optimal piano fingering, 
       saving pianists hours of manual music-sheet annotation</p>
-    <a href="Predicting Piano Fingering.pdf" target="_blank">See the project</a>
+    <a href="RF and NNs.pdf" target="_blank">Random Forest and Neural Nets Solution</a>
+    <a href="HMM.pdf" target="_blank">Hidden Markov Models Solution</a>
+    <a href="HMM.pdf" target="_blank">More details in GitHub repo</a>
          
     <br><br>
 
@@ -72,10 +72,10 @@
       Built validation framework and tuned prompts/hyperparameters to mitigate hallucinations.
 </p>
     <a href="Predicting Piano Fingering.pdf" target="_blank">See the project</a>
-         
+    <a href="Predicting Piano Fingering.pdf" target="_blank">More details in </a>
     <br><br>
     
-    
+
     <h2>The Influence of External Debt on Economic Growth</h2>
     <p>Employed Python to build an economic growth model based on IMF research, utilizing World Bank data.
        Conducted data analysis, curve fitting, and time series modeling (ARIMAX) to assess the relationship
@@ -86,16 +86,47 @@
 
         
 
-          <section>
-            <h1><b>TECHNOLOGIES</b></h1>
-            
-            <h3> Python, R </h3>
-            <h3> SQL (PostgreSQL, Redshift, BigQuery, MySQL) </h3>
-            <h3> Cloud and analytics environments: AWS, Spark, BigQuery, and Tableau </h3>
-            <h3> Reporting: Tableau, QuickSight, Power BI </h3>
-            <h3> Libraries: PyTorch </h3>
+<section class="tech">
+  <h2>Technologies</h2>
 
-         </section>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <h3>Languages</h3>
+      <ul class="tags">
+        <li>Python</li><li>R</li><li>SQL</li>
+      </ul>
+    </div>
+
+    <div class="tech-card">
+      <h3>Databases</h3>
+      <ul class="tags">
+        <li>PostgreSQL</li><li>Redshift</li><li>BigQuery</li><li>MySQL</li>
+      </ul>
+    </div>
+
+    <div class="tech-card">
+      <h3>Cloud & Data</h3>
+      <ul class="tags">
+        <li>AWS</li><li>Spark</li><li>BigQuery</li>
+      </ul>
+    </div>
+
+    <div class="tech-card">
+      <h3>BI & Reporting</h3>
+      <ul class="tags">
+        <li>Tableau</li><li>QuickSight</li><li>Power BI</li>
+      </ul>
+    </div>
+
+    <div class="tech-card">
+      <h3>ML</h3>
+      <ul class="tags">
+        <li>PyTorch</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
        
 
@@ -138,7 +169,7 @@
         <h1><b>EXPERIENCE</b></h1>
 
        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <img src="nac.png" alt="Ormco Logo" width="50" height="auto" style="margin-right: 10px;">
+                <img src="ormco.png" alt="Ormco Logo" width="50" height="auto" style="margin-right: 10px;">
                 <span><b> R&D Data Scientist at Ormco</b>, <i>2025 - current, Brea, CA</i></span>
             </div>
             <p>
@@ -163,41 +194,14 @@
               <li>Developed data-backed recommendations for policymakers on long-term socio-economic development </li>
               <li>Applied global value chains framework to perform quantitative analysis of Kazakhstan’s wheat industry, providing actionable 
                   insights for business support measures</li>
+                <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf" target="_blank">Publication 1</a>
+                <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan"_blank">Publication 2</a>
             </ul>
         </p>
         </section>
 
 
-
-        <section>
-        <h1><b>PUBLICATIONS</b></h1>
-        <p>
-            <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf  " target="_blank">
-                The Wheat Value Chain in Kazakhstan, CAMPUS CGGC, Oct 12, 2017</a>
-            <br>
-            In collaboration with Duke University Global Value Chains Center (GVCC)
-        </p>
-
-        <p>
-            <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan"
-               target="_blank">A practical approach to oil wealth management of Kazakhstan, Energy Economics, Jan 1, 2015</a>
-            <br>
-            A new approach to oil wealth management bringing together an oil production and sustainability of oil reserves, 
-            and the impact on the fiscal balance and government debt...
-            <a href="javascript:void(0);" onclick="toggleContent('moreContent2', 'moreBtn2')" id="moreBtn2">more</a>
-        </p>
-<!-- Second MORE button and content -->
-        <div id="moreContent2" style="display: none;">
-            <p>
-                The study provides a quantitative depiction of the above dimensions to 2050 for the case of Kazakhstan where
-                the country's oil output has grown from about 0.6 million barrels/day (mb/d) in the late 1990s to 1.8 (mb/d) in 2013,
-                and it is expected to reach a peak of 3.5 mb/d by 2035. The analysis of this study indicates that within the limits of
-                proven oil reserves, Kazakhstan's oil production capacity would collapse to negligible amounts after the peak period of 2035.
-                This envisaged scenario will have undesirable impacts on the economy, balance of trade and fiscal balance both prior and after 2035.
-                To avoid these erratic impacts, the study examines an alternative “conservative” production scenario that would enable
-                the country to maintain its level of oil production until 2050, and to manage better the transition to a non-oil economy.
-            </p>
-        </div>
+ 
 
          <script>
             function toggleContent(contentId, btnId) {
