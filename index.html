@@ -1,337 +1,293 @@
-:root{
-  --bg: #0b0f17;
-  --card: #121a27;
-  --text: #e7eefc;
-  --muted: rgba(231,238,252,.72);
-  --line: rgba(231,238,252,.10);
-  --pill: rgba(231,238,252,.10);
-  --shadow: 0 10px 30px rgba(0,0,0,.35);
-  --radius: 16px;
-  --max: 1050px;
-}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-body{
-  background: var(--bg);
-  color: var(--text);
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  line-height: 1.6;
-}
+  <title>Anastasia Iskaliyeva | Portfolio</title>
 
-.wrapper{
-  max-width: var(--max);
-  margin: 0 auto;
-  padding: 24px;
-}
+  <!-- Keep your existing CSS if you want, but this file is a clean override -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
 
-.section{
-  padding: 28px 0;
-  border-top: 1px solid var(--line);
-}
+  <!-- Add this new stylesheet -->
+  <link rel="stylesheet" href="stylesheets/portfolio.css">
+</head>
 
-.section h2{
-  margin: 0 0 12px 0;
-  font-size: 26px;
-}
+<body>
+  <div class="wrapper">
 
-.lead{
-  font-size: 18px;
-  color: var(--muted);
-  max-width: 70ch;
-}
+    <!-- HERO -->
+    <header class="hero" id="top">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <h1 class="name">Anastasia Iskaliyeva</h1>
+          <p class="tagline">Data Science • Economics • Reporting & Analytics</p>
 
-.muted{ color: var(--muted); }
+          <div class="meta">
+            <span class="meta-item">
+              <img class="icon" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="" />
+              Irvine, CA
+            </span>
+          </div>
 
-/* HERO */
-.hero{
-  padding: 18px 0 8px 0;
-}
+          <div class="links">
+            <a class="icon-link" href="https://github.com/Anastasia1707" target="_blank" rel="noreferrer">
+              <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+            </a>
+            <a class="icon-link" href="https://www.linkedin.com/in/anastasia-iskaliyeva-686a02316" target="_blank" rel="noreferrer">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+            </a>
+            <a class="icon-link" href="mailto:a.iskaliyeva@gmail.com">
+              <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" />
+            </a>
+          </div>
 
-.hero-grid{
-  display: grid;
-  grid-template-columns: 1.2fr .8fr;
-  gap: 24px;
-  align-items: center;
-}
+          <div class="cta-row">
+            <a class="btn primary" href="Anastasia Iskaliyeva_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+            <a class="btn" href="#projects">View Projects</a>
+          </div>
+        </div>
 
-.name{
-  margin: 0;
-  font-size: 40px;
-  letter-spacing: .2px;
-}
+        <div class="hero-right">
+          <img class="portrait" src="photo.png" alt="Anastasia photo" />
+        </div>
+      </div>
 
-.tagline{
-  margin: 6px 0 14px 0;
-  color: var(--muted);
-  font-size: 18px;
-}
+      <!-- NAV -->
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#tech">Technologies</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#training">Training</a>
+      </nav>
+    </header>
 
-.portrait{
-  width: 100%;
-  max-width: 380px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  display: block;
-  margin-left: auto;
-}
 
-.meta{ margin: 10px 0 12px; }
-.meta-item{
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--muted);
-}
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p class="lead">
+        Data Scientist with a background in economics and 7+ years of experience applying statistical,
+        machine-learning, macroeconomic research, and econometric models to forecasting and decision-making
+        across research and industry settings.
+      </p>
+    </section>
 
-.icon{
-  width: 18px;
-  height: 18px;
-  opacity: .9;
-}
 
-.links{
-  display: flex;
-  gap: 10px;
-  margin: 10px 0 18px;
-}
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">A few highlights — focused on analytics, experimentation, and applied ML.</p>
+      </div>
 
-.icon-link{
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  background: var(--pill);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-}
+      <div class="cards">
 
-.icon-link img{
-  width: 22px;
-  height: 22px;
-}
+        <article class="card">
+          <div class="card-top">
+            <h3>Piano Fingering Prediction</h3>
+            <span class="pill">ML • MusicXML</span>
+          </div>
+          <p>
+            Built machine-learning models using MusicXML data to predict and evaluate optimal piano fingering,
+            saving pianists hours of manual music-sheet annotation.
+          </p>
+          <div class="card-links">
+            <a href="Predicting Piano Fingering.pdf" target="_blank" rel="noreferrer">Random Forest & Neural Nets</a>
+            <a href="Probabilistic Piano Fingering .pdf" target="_blank" rel="noreferrer">Hidden Markov Models</a>
+            <a href="https://github.com/Anastasia1707/piano-fingering" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
 
-.cta-row{
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+        <article class="card">
+          <div class="card-top">
+            <h3>Agentic AI Integration</h3>
+            <span class="pill">RAG • Validation</span>
+          </div>
+          <p>
+            Developed a RAG agent for biotech knowledge access, creating a proof of concept that reduced customer support workload.
+            Built validation framework and tuned prompts/hyperparameters to mitigate hallucinations.
+          </p>
+          <div class="card-links">
+            <a href="AgenticAI_Project_Report.pdf" target="_blank" rel="noreferrer">Project Report</a>
+          </div>
+        </article>
 
-.btn{
-  display: inline-block;
-  padding: 10px 14px;
-  border-radius: 12px;
-  border: 1px solid var(--line);
-  background: transparent;
-  color: var(--text);
-  text-decoration: none;
-}
+        <article class="card">
+          <div class="card-top">
+            <h3>External Debt & Economic Growth (ARIMAX)</h3>
+            <span class="pill">Time Series • Economics</span>
+          </div>
+          <p>
+            Built an economic growth model based on IMF research using World Bank data. Conducted curve fitting and ARIMAX modeling
+            to assess debt–GDP dynamics and identify threshold effects.
+          </p>
+          <div class="card-links">
+            <a href="https://github.com/Anastasia1707/debt_and_gdp" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
 
-.btn.primary{
-  background: rgba(231,238,252,.12);
-}
+        <article class="card">
+          <div class="card-top">
+            <h3>A/B Testing & Experiment Design (BigQuery)</h3>
+            <span class="pill">Experimentation • SQL</span>
+          </div>
 
-.btn:hover{
-  transform: translateY(-1px);
-}
+          <ul class="bullets">
+            <li>Designed and analyzed an A/B experiment to evaluate the impact of product bundling on conversion, AOV, and revenue.</li>
+            <li>Defined test/control groups, hypotheses, KPIs, and success metrics aligned with Cyber Monday / holiday uplift goals.</li>
+            <li>Used SQL in BigQuery to extract, clean, and aggregate user/session behavioral data (cart events, purchases, bundles).</li>
+            <li>Performed statistical testing with confidence intervals and robustness checks; conducted market basket analysis.</li>
+            <li>Communicated results via an Amazon-style PRFAQ and experiment report with actionable recommendations.</li>
+          </ul>
 
-/* NAV */
-.nav{
-  margin-top: 18px;
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  padding: 10px 0;
-}
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noreferrer">GitHub Repo (updating)</a>
+          </div>
+        </article>
 
-.nav a{
-  color: var(--muted);
-  text-decoration: none;
-  padding: 6px 10px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-}
+      </div>
+    </section>
 
-.nav a:hover{ color: var(--text); }
 
-/* CARDS */
-.section-head{
-  display:flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 16px;
-  flex-wrap: wrap;
-}
+    <!-- TECHNOLOGIES -->
+    <section id="tech" class="section">
+      <div class="section-head">
+        <h2>Technologies</h2>
+        <p class="muted">Tools I use for data management, reporting, and modeling.</p>
+      </div>
 
-.cards{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 14px;
-  margin-top: 14px;
-}
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>Languages</h3>
+          <ul class="tags"><li>Python</li><li>R</li><li>SQL</li></ul>
+        </div>
 
-.card{
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 16px;
-  box-shadow: var(--shadow);
-}
+        <div class="tech-card">
+          <h3>Databases</h3>
+          <ul class="tags"><li>PostgreSQL</li><li>Redshift</li><li>BigQuery</li><li>MySQL</li></ul>
+        </div>
 
-.card-top{
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+        <div class="tech-card">
+          <h3>Cloud & Data</h3>
+          <ul class="tags"><li>AWS</li><li>Spark</li></ul>
+        </div>
 
-.card h3{
-  margin: 0;
-  font-size: 18px;
-}
+        <div class="tech-card">
+          <h3>BI & Reporting</h3>
+          <ul class="tags"><li>Tableau</li><li>QuickSight</li><li>Power BI</li></ul>
+        </div>
 
-.pill{
-  background: var(--pill);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 4px 10px;
-  color: var(--muted);
-  font-size: 12px;
-}
+        <div class="tech-card">
+          <h3>ML</h3>
+          <ul class="tags"><li>PyTorch</li></ul>
+        </div>
+      </div>
+    </section>
 
-.card p{ color: var(--muted); margin: 10px 0 0; }
 
-.card-links{
-  display:flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 12px;
-}
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
 
-.card-links a{
-  color: var(--text);
-  text-decoration: none;
-  border-bottom: 1px dashed var(--line);
-}
+      <div class="timeline">
 
-/* BULLETS */
-.bullets{
-  margin: 12px 0 0 18px;
-  color: var(--muted);
-}
+        <div class="role">
+          <div class="role-head">
+            <img src="ormco.png" alt="Ormco logo" class="logo">
+            <div>
+              <h3>R&D Data Scientist — Ormco</h3>
+              <p class="muted">2025–Current • Brea, CA • Medical equipment manufacturing</p>
+            </div>
+          </div>
+          <ul class="bullets">
+            <li>Develop forecasting models for orthodontic refinements and integrate outputs into reporting dashboards for planning.</li>
+            <li>Design and optimize Redshift datasets using SQL to support executive reporting and cost-reduction analysis.</li>
+            <li>Validated legacy methods for aligner accuracy and automated the workflow for repeatable analysis on new cases.</li>
+          </ul>
+        </div>
 
-.bullets li{ margin: 6px 0; }
+        <div class="role">
+          <div class="role-head">
+            <img src="nac.png" alt="NAC logo" class="logo">
+            <div>
+              <h3>Research Analyst — National Analytical Center</h3>
+              <p class="muted">2015–2019 • Astana, Kazakhstan • Government think tank</p>
+            </div>
+          </div>
+          <ul class="bullets">
+            <li>Conducted data-driven analyses to identify strategic development approaches for key industries.</li>
+            <li>Developed evidence-based recommendations for long-term socio-economic policy decisions.</li>
+            <li>Applied global value chains framework to analyze the wheat industry and propose business support measures.</li>
+          </ul>
+          <div class="inline-links">
+            <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf" target="_blank" rel="noreferrer">Publication 1</a>
+            <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan" target="_blank" rel="noreferrer">Publication 2</a>
+          </div>
+        </div>
 
-/* TECH */
-.tech-grid{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
-}
+      </div>
+    </section>
 
-.tech-card{
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 14px;
-}
 
-.tags{
-  list-style:none;
-  padding: 0;
-  margin: 10px 0 0;
-  display:flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h2>Education</h2>
 
-.tags li{
-  border: 1px solid var(--line);
-  background: var(--pill);
-  border-radius: 999px;
-  padding: 6px 10px;
-  color: var(--muted);
-  font-size: 13px;
-}
+      <div class="edu-list">
+        <div class="edu-item">
+          <img src="uci.png" alt="UCI logo" class="logo">
+          <div>
+            <h3>University of California, Irvine</h3>
+            <p class="muted">Master of Data Science • 2025</p>
+          </div>
+        </div>
 
-/* EXPERIENCE */
-.timeline{
-  display:flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 12px;
-}
+        <div class="edu-item">
+          <img src="msu.png" alt="MSU logo" class="logo">
+          <div>
+            <h3>Lomonosov Moscow State University</h3>
+            <p class="muted">Master of Economics</p>
+          </div>
+        </div>
 
-.role{
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 16px;
-}
+        <div class="edu-item">
+          <img src="msu.png" alt="MSU logo" class="logo">
+          <div>
+            <h3>Lomonosov Moscow State University</h3>
+            <p class="muted">Bachelor of Economics</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-.role-head{
-  display:flex;
-  gap: 12px;
-  align-items: center;
-}
 
-.logo{
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  object-fit: contain;
-  background: rgba(231,238,252,.06);
-  border: 1px solid var(--line);
-}
+    <!-- TRAINING -->
+    <section id="training" class="section">
+      <h2>Training</h2>
+      <ul class="bullets">
+        <li><strong>Tableau Desktop Specialist</strong> — 2024</li>
+        <li><strong>Database Management Programming (SQL)</strong> — IVC, 2023</li>
+        <li><strong>Programming with Python</strong> — IVC, 2019</li>
+      </ul>
+    </section>
 
-.inline-links{
-  margin-top: 10px;
-  display:flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
 
-.inline-links a{
-  color: var(--text);
-  text-decoration: none;
-  border-bottom: 1px dashed var(--line);
-}
+    <footer class="footer">
+      <a href="#top">Back to top ↑</a>
+      <p class="muted">© <span id="year"></span> Anastasia Iskaliyeva</p>
+    </footer>
 
-/* EDUCATION */
-.edu-list{
-  display:flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 12px;
-}
+  </div>
 
-.edu-item{
-  display:flex;
-  align-items: center;
-  gap: 12px;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 14px;
-}
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
-/* FOOTER */
-.footer{
-  border-top: 1px solid var(--line);
-  padding: 18px 0 30px;
-  color: var(--muted);
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.footer a{ color: var(--muted); text-decoration: none; }
-.footer a:hover{ color: var(--text); }
-
-/* RESPONSIVE */
-@media (max-width: 840px){
-  .hero-grid{ grid-template-columns: 1fr; }
-  .portrait{ margin: 10px 0 0; max-width: 420px; }
-  .name{ font-size: 34px; }
-}
+  <script src="javascripts/scale.fix.js"></script>
+</body>
+</html>
