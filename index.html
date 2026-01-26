@@ -1,238 +1,337 @@
-<!doctype html>
-<html>
-  
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Anastasia Iskaliyeva Portfolio</title>
+:root{
+  --bg: #0b0f17;
+  --card: #121a27;
+  --text: #e7eefc;
+  --muted: rgba(231,238,252,.72);
+  --line: rgba(231,238,252,.10);
+  --pill: rgba(231,238,252,.10);
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --radius: 16px;
+  --max: 1050px;
+}
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
- 
-  <body>
-    <div class="wrapper">
-      
-      <header>
-        <div style="text-align: center;">
-        <h1><b>Anastasia Iskaliyeva</b></h1>
-        <h1><b>Data Science  Economics </b></h1>
-        <img src="photo.png" alt="photo" width="500">
-            <br><br>
-        <p>
-            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Location Icon" width="20" height="20"> <b>Irvine, CA</b>
-        </p>
-        <p>
-            <a href="https://github.com/Anastasia1707" target="_blank">
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="40" height="40">
-            </a>&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/anastasia-iskaliyeva-686a02316" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" width="40" height="40">
-            </a>&nbsp;&nbsp;
-            <a href="mailto:a.iskaliyeva@gmail.com" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email Icon" width="40" height="40">
-            </a>
-        </p>
-        <p>
-            <a href="Anastasia Iskaliyeva_Resume.pdf" target="_blank"><b>MY RESUME</b></a>
-        </p>
-        </div>
-      </header>
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
 
+.wrapper{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 24px;
+}
 
-  <section>
-        <h1><b>ABOUT ME</b></h1>
+.section{
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
 
-       <p>
-        Data Scientist with a background in economics and over 7 years of experience applying statistical, 
-        machine-learning, macroeconomic research  and econometric models to forecasting and decision-making across research and industry settings.  
-      </p>
+.section h2{
+  margin: 0 0 12px 0;
+  font-size: 26px;
+}
 
- </section>
-        
+.lead{
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 70ch;
+}
 
+.muted{ color: var(--muted); }
 
-  <section>
-    <h1><b>PROJECTS</b></h1>
-    
-    <h2>1. Piano Fingering Prediction </h2>
-    <p>Built machine-learning models using MusicXML data to predict and evaluate optimal piano fingering, 
-      saving pianists hours of manual music-sheet annotation</p>
-    <a href="RF and NNs.pdf" target="_blank">Random Forest and Neural Nets Solution</a>
-    
-    <a href="HMM.pdf" target="_blank">Hidden Markov Models Solution</a>
-    
-    <a href="HMM.pdf" target="_blank"> More details in GitHub repo </a>
-         
-    <br><br>
+/* HERO */
+.hero{
+  padding: 18px 0 8px 0;
+}
 
-    <h2>2. Agentic AI Integration </h2>
-    <p> Developed a RAG agent for biotech knowledge access, creating a proof of concept that reduced customer support workload. 
-      Built validation framework and tuned prompts/hyperparameters to mitigate hallucinations.
-</p>
-    <a href="AgenticAI_Project_Report.pdf" target="_blank"> See the project </a>
-    <br><br>
-    
+.hero-grid{
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 24px;
+  align-items: center;
+}
 
-    <h2>3. The Influence of External Debt on Economic Growth</h2>
-    <p>Employed Python to build an economic growth model based on IMF research, utilizing World Bank data.
-       Conducted data analysis, curve fitting, and time series modeling (ARIMAX) to assess the relationship
-       between debt and GDP. Discovered insights into the complex dynamics between debt and economic growth,
-       providing valuable information for policymakers.</p>
-    <a href="https://github.com/Anastasia1707/debt_and_gdp" target="_blank"> More details in Github repo </a>
+.name{
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: .2px;
+}
 
-    <h2>4. A/B Testing & Experiment Design for eCommerce Bundling (BigQuery) </h2>
+.tagline{
+  margin: 6px 0 14px 0;
+  color: var(--muted);
+  font-size: 18px;
+}
 
-    <li> Designed and analyzed an A/B experiment to evaluate the impact of product bundling on conversion rate, average order value (AOV), and revenue for an eCommerce platform.  </li>
-    <li> Defined test and control groups, hypotheses, KPIs, and success metrics aligned with business objectives (Cyber Monday / holiday revenue uplift).  </li>
-    <li> Used SQL in BigQuery to extract, clean, and aggregate user-level and session-level behavioral data (cart events, purchases, bundles).  </li>
-    <li> Performed statistical hypothesis testing (conversion uplift, revenue differences), including confidence intervals and significance assessment.  </li>
-    <li> Conducted market basket analysis to identify high-affinity product combinations and inform bundle design.  </li>
-    <li> Quantified expected incremental revenue uplift and validated robustness through sensitivity checks. </li>
-    <li> Communicated results and recommendations in an Amazon-style PRFAQ and experiment report, translating analytical findings into actionable business insights. </li>
-    <a href="..." target="_blank"> GitHub repo being updated </a>
-    
-      </section>
+.portrait{
+  width: 100%;
+  max-width: 380px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: block;
+  margin-left: auto;
+}
 
-        
+.meta{ margin: 10px 0 12px; }
+.meta-item{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+}
 
-<section class="tech">
-  <h2>Technologies</h2>
+.icon{
+  width: 18px;
+  height: 18px;
+  opacity: .9;
+}
 
-  <div class="tech-grid">
-    <div class="tech-card">
-      <h3>Languages</h3>
-      <ul class="tags">
-        <li>Python</li><li>R</li><li>SQL</li>
-      </ul>
-    </div>
+.links{
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 18px;
+}
 
-    <div class="tech-card">
-      <h3>Databases</h3>
-      <ul class="tags">
-        <li>PostgreSQL</li><li>Redshift</li><li>BigQuery</li><li>MySQL</li>
-      </ul>
-    </div>
+.icon-link{
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: var(--pill);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
 
-    <div class="tech-card">
-      <h3>Cloud & Data</h3>
-      <ul class="tags">
-        <li>AWS</li><li>Spark</li><li>BigQuery</li>
-      </ul>
-    </div>
+.icon-link img{
+  width: 22px;
+  height: 22px;
+}
 
-    <div class="tech-card">
-      <h3>BI & Reporting</h3>
-      <ul class="tags">
-        <li>Tableau</li><li>QuickSight</li><li>Power BI</li>
-      </ul>
-    </div>
+.cta-row{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
-    <div class="tech-card">
-      <h3>ML</h3>
-      <ul class="tags">
-        <li>PyTorch</li>
-      </ul>
-    </div>
-  </div>
-</section>
+.btn{
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+  text-decoration: none;
+}
 
+.btn.primary{
+  background: rgba(231,238,252,.12);
+}
 
-       
+.btn:hover{
+  transform: translateY(-1px);
+}
 
-        <section>
-        <h1><b>EDUCATION</b></h1>
+/* NAV */
+.nav{
+  margin-top: 18px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
 
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <img src="uci.png" alt="UCI Logo" width="50" height="auto" style="margin-right: 10px;">
-                <span>University of California, Irvine, CA, <br>Master of Data Science 2025)</span>
-            </div>
+.nav a{
+  color: var(--muted);
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
 
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <img src="msu.png" alt="MSU Logo" width="50" height="auto" style="margin-right: 10px;">
-                <span>Lomonosov Moscow State University, Moscow, Russia, <br>Master of Economics </span>
-            </div>
+.nav a:hover{ color: var(--text); }
 
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <img src="msu.png" alt="MSU Logo" width="50" height="auto" style="margin-right: 10px;">
-                <span>Lomonosov Moscow State University, Moscow, Russia, <br> Bachelor of Economics</span>
-            </div>
-        </section>
+/* CARDS */
+.section-head{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
 
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
 
-        <section>
-        <h1><b>TRAINING</b></h1>
-        <p>
-            <b>Certified Tableau Desktop Specialist</b>, <i>2024</i>
-        </p>
-        <p>
-            <b>Database Management Programming (SQL)</b>, <i>IVC, 2023</i>
-        </p>
-        <p>
-            <b>Programming with Python</b>, <i>IVC, 2019</i>
-        </p>
-        </section>
+.card{
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
 
+.card-top{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
+.card h3{
+  margin: 0;
+  font-size: 18px;
+}
 
-        <section>
-        <h1><b>EXPERIENCE</b></h1>
+.pill{
+  background: var(--pill);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
 
-       <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <img src="ormco.png" alt="Ormco Logo" width="50" height="auto" style="margin-right: 10px;">
-                <span><b> R&D Data Scientist at Ormco</b>, <i>2025 - current, Brea, CA</i></span>
-            </div>
-            <p>
-            Medical equipment manufacturing </p>
-            <ul>
-              <li> Develop machine learning models to forecast orthodontic refinements, including data extraction, feature engineering, model development and evaluation, 
-                and integration into reporting dashboards used for R&D and manufacturing planning </li>
-              <li> Design and optimize large-scale datasets in Amazon Redshift using SQL to support executive reporting and surface cost-reduction opportunities </li>
-              <li> Reproduced and validated legacy statistical methods for evaluating aligner accuracy (planned vs. achieved tooth movement), 
-                then automated the workflow to enable ongoing analysis of new cases</li>
-            </ul>
-        </p>
-          
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <img src="nac.png" alt="NAC Logo" width="50" height="auto" style="margin-right: 10px;">
-                <span><b> Research-Analyst at the National Analytical Center</b>, <i>2015 - 2019, Astana, Kazakhstan</i></span>
-            </div>
-            <p>
-            The leading think-tank under the Government of Kazakhstan</p>
-            <ul>
-              <li>Conducted data-driven analysis to identify strategic development approaches for key industries within the Kazakhstan economy </li>
-              <li>Developed data-backed recommendations for policymakers on long-term socio-economic development </li>
-              <li>Applied global value chains framework to perform quantitative analysis of Kazakhstan’s wheat industry, providing actionable 
-                  insights for business support measures</li>
-                <a href="https://www.globalvaluechains.org/wp-content/uploads/Wheat-Report-R4-PRINT.pdf" target="_blank">Publication 1</a>
-                <a href="https://www.researchgate.net/publication/272382187_A_practical_approach_to_oil_wealth_management_Application_to_the_case_of_Kazakhstan"_blank">Publication 2</a>
-            </ul>
-        </p>
-        </section>
+.card p{ color: var(--muted); margin: 10px 0 0; }
 
+.card-links{
+  display:flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
 
- 
+.card-links a{
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--line);
+}
 
-         <script>
-            function toggleContent(contentId, btnId) {
-                var moreContent = document.getElementById(contentId);
-                var moreBtn = document.getElementById(btnId);
+/* BULLETS */
+.bullets{
+  margin: 12px 0 0 18px;
+  color: var(--muted);
+}
 
-                if (moreContent.style.display === "none") {
-                    moreContent.style.display = "block";
-                    moreBtn.innerHTML = "less"; // Change text to LESS
-                } else {
-                    moreContent.style.display = "none";
-                    moreBtn.innerHTML = "more"; // Change text back to MORE
-                }
-            }
-        </script>
+.bullets li{ margin: 6px 0; }
 
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
-</html>
+/* TECH */
+.tech-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.tech-card{
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.tags{
+  list-style:none;
+  padding: 0;
+  margin: 10px 0 0;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags li{
+  border: 1px solid var(--line);
+  background: var(--pill);
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* EXPERIENCE */
+.timeline{
+  display:flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.role{
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.role-head{
+  display:flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.logo{
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: rgba(231,238,252,.06);
+  border: 1px solid var(--line);
+}
+
+.inline-links{
+  margin-top: 10px;
+  display:flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.inline-links a{
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--line);
+}
+
+/* EDUCATION */
+.edu-list{
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.edu-item{
+  display:flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+/* FOOTER */
+.footer{
+  border-top: 1px solid var(--line);
+  padding: 18px 0 30px;
+  color: var(--muted);
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer a{ color: var(--muted); text-decoration: none; }
+.footer a:hover{ color: var(--text); }
+
+/* RESPONSIVE */
+@media (max-width: 840px){
+  .hero-grid{ grid-template-columns: 1fr; }
+  .portrait{ margin: 10px 0 0; max-width: 420px; }
+  .name{ font-size: 34px; }
+}
